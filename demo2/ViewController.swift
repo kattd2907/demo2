@@ -20,9 +20,9 @@ class ViewController: UIViewController {
 
     @IBAction func actLogin(_ sender: Any) {
         if username.text == "admin" && password.text == "123" {
-            print("Đăng nhập thành công")
+            print("Đăng nhập thành công, xin cảm ơn")
         } else {
-            print("Sai tài khoản hoặc mật khẩu")
+            print("Sai tài khoản hoặc mật khẩu, hãy thử lại")
         }
     }
 }
